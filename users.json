@@ -1,0 +1,69 @@
+{
+    "Carlos": {
+        "Cabernet Sauvignon": 4,
+        "Cabernet Franc": 1,
+        "Tannat": 4,
+        "Merlot": 3,
+        "Pinot Noir": 2,
+        "Pinot Gris": 1
+    },
+    "Luiza": {
+        "Cabernet Sauvignon": 2,
+        "Chardonnay": 4,
+        "Sauvignon Blanc": 2,
+        "Viognier": 3,
+        "Riesling": 3
+    },
+    "Juliana": {
+        "Cabernet Sauvignon": 5,
+        "Cabernet Franc": 1,
+        "Chardonnay": 1,
+        "Tannat": 3,
+        "Sauvignon Blanc": 5,
+        "Viognier": 1,
+        "Pinot Noir": 5
+    },
+    "Mohammed": {
+        "Sauvignon Blanc": 3,
+        "Viognier": 4,
+        "Grenache": 2,
+        "Riesling": 2
+    },
+    "Gilberto": {
+        "Cabernet Franc": 4,
+        "Chardonnay": 1,
+        "Tannat": 4,
+        "Grenache": 4,
+        "Pinot Gris": 5,
+        "Riesling": 1
+    },
+    "Juliette": {
+        "Cabernet Franc": 3,
+        "Chardonnay": 2,
+        "Tannat": 5,
+        "Riesling": 4,
+        "Pinot Noir": 3
+    },
+    "Fiuk": {
+        "Cabernet Sauvignon": 5,
+        "Cabernet Franc": 2,
+        "Tannat": 3,
+        "Sauvignon Blanc": 5,
+        "Viognier": 4,
+        "Grenache": 5
+    },
+    "DG": {
+        "Cabernet Sauvignon": 3,
+        "Tannat": 5,
+        "Sauvignon Blanc": 2,
+        "Viognier": 2,
+        "Grenache": 3
+    },
+    "Babu": {
+        "Cabernet Sauvignon": 2,
+        "Viognier": 3,
+        "Cabernet Franc": 4,
+        "Grenache": 3,
+        "Pinot Gris": 3
+    }
+}
