@@ -16,6 +16,8 @@ username = form.text_input(
 submitted = form.form_submit_button("Submit")
 if submitted:
       print(username)
-      
+      listRecommend  = get_recommendation(username)
+      st.subheader("Recomendações para " + username)
+      st.subheader("Vinhos recomendados: ")
       for i in range(5):
-            st.write(get_recommendation(username))
+            st.write(listRecommend[i][0])
