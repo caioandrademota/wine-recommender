@@ -45,7 +45,7 @@ def get_recommendation(user):
                 if item not in recommendations:
                     recommendations[item] = (score, person)
     # sort the recommendations
-    recommendations = sorted(recommendations.items(), key=lambda x: x[1][0], reverse=True)
+    recommendations = sorted(recommendations.items(), key=lambda x: x[1][0])
     return recommendations
  
 def get_top_matches(scores, user):
@@ -53,3 +53,4 @@ def get_top_matches(scores, user):
     for person in scores:
         if person != user:
             ranked.append((person, scores[person]))
+    return ranked

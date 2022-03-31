@@ -15,4 +15,7 @@ username = form.text_input(
 # Every form must have a submit button.
 submitted = form.form_submit_button("Submit")
 if submitted:
-      get_recommendation(username)
+      print(username)
+      
+      for i in range(5):
+            st.write(get_recommendation(username))
