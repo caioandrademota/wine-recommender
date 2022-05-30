@@ -1,13 +1,13 @@
 import streamlit as st
-from pearson import get_recommendation
+from similarity import get_recommendations
 
-st.title('Sistema de Recomendação de Vinhos')
-st.subheader("Sistema de recomendação que utiliza o Streamlit para renderização de interfaces no front-end, no back-end, utiliza Python, e o Algoritmo de recomendação Pearson.")
+st.title('Sistema de Recomendação de Filmes - Só Filme TOP')
+st.subheader("Sistema de recomendação que utiliza o Streamlit para renderização de interfaces no front-end, no back-end, utiliza Python.")
 
 
 form = st.form("my_form")
-username = form.text_input(
-      'Insira o nome de usuário para verificar as recomendações de vinhos',
+movie = form.text_input(
+      'Insira o nome do filme para verificar as recomendações de filmes semelhantes',
       value = '',
       max_chars = 30
 )
@@ -15,9 +15,8 @@ username = form.text_input(
 # Every form must have a submit button.
 submitted = form.form_submit_button("Submit")
 if submitted:
-      print(username)
-      listRecommend  = get_recommendation(username)
-      st.subheader("Recomendações para " + username)
-      st.subheader("Vinhos recomendados: ")
-      for i in range(5):
-            st.write(listRecommend[i][0])
+      print(movie)
+      listRecommend  = get_recommendations(movie)
+      st.subheader("Se você gostou de " + movie + "...")
+      st.subheader("...você vai gostar de: ")
+      st.write(listRecommend)
